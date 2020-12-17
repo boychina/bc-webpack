@@ -1,0 +1,28 @@
+{
+  "name": "bc-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./script/build.js",
+    "debug": "node --inspect-brk ./script/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boychina/bc-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boychina/bc-webpack/issues"
+  },
+  "homepage": "https://github.com/boychina/bc-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/parser": "^7.12.3",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/traverse": "^7.12.10"
+  }
+}
